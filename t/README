@@ -475,6 +475,9 @@ dependency breaks or is simply not present in a new environment.
 GIT_TEST_CAT_FILE_NO_FLUSH_ON_EXIT=<boolean>, when true will prevent cat-file
 --batch-command from flushing to output on exit.
 
+GIT_TEST_FSCACHE=<boolean> exercises the uncommon fscache code path
+which adds a cache below mingw's lstat and dirent implementations.
+
 Naming Tests
 ------------
 
